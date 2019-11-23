@@ -1,1 +1,5 @@
-<p>user-show works!</p>
+<div class="row">
+  <ul>
+    <li *ngFor="let user of users">{{ user.getFirstName() }} {{ user.getLastName() }} {{ user.getAge() }}</li>
+  </ul>
+</div>
